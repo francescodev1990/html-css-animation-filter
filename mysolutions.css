@@ -66,3 +66,17 @@
 
 /* INIZIO ESERCIZI ICONE */
 
+.ex-10-icon{
+    animation-name: ruota;
+    animation-duration: 1000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes ruota {
+    from { 
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
